@@ -1,0 +1,270 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.6em;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    background: url(/images/bg.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #000;
+
+    
+}
+
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px; 
+    
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+    color: #bb0000;
+
+}
+
+/*navbar*/
+nav {
+    background: #333;
+    color: #ffffffe3;
+    padding: 30px;
+    min-height: 70px;
+    border-bottom: #bb0000 3px solid;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+    
+    
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 40px;
+      
+
+}
+
+/* Header */
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 8px;
+    min-height: 70px;
+    border-bottom: #bb0000 3px solid;
+    text-align: center;
+    font-size: 40px;
+    
+}
+/* main */
+
+main {
+    max-width: 1000px;
+    margin: auto auto 60% auto;
+    padding: 20px;
+    background: rgb(253, 253, 253);
+    border-radius: 10px;
+    border: #f80000 1px solid;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+/*    background-image: url("https:source.unsplash.com/random/?Cryptocurrency/25x25");*/
+}
+/* section */
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: #ccccccfb 1px solid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+/*    background-image: url("https:source.unsplash.com/random/");*/
+    color: #fff;
+    background-color:#000000c9;
+    text-shadow: #fffefe 0px 0px 2px;
+}
+
+.changelly {
+    max-width: 1688px;
+    margin: auto;
+ /*   background: #fff;*/
+    border-radius: 10px;
+    border: #ccc 1px solid;
+    height: 100%;
+    background-image: url("https:source.unsplash.com/random/?Cryptocurrency/25x25");
+    color: #fff;
+    background-color:#221f1f8f;
+
+}
+
+/* footer */
+
+footer {
+    padding: 25px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    border-top: #bb0000 3px solid;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+
+}
+
+.red {
+    color: #bb0000;
+}
+
+.green {
+    color: #00bb00;
+}
+.yellow {
+    color: #ffbb00;
+}
+
+/* LINKS! */
+a {
+    color: #bb0000;
+    text-decoration: none;
+}
+
+.link a img {
+    display: block;
+    margin: auto;
+    grid-gap: 0px;
+    text-align: center;
+    padding: 0%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: relative;
+
+
+}
+
+/*.link a img:hover {
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+*/
+
+.uphold {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0;
+    background: #fff;
+    border-radius: 10px;
+    border: #ccc 1px solid;
+
+}
+
+
+.uphold:hover {
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(1.4);
+    transition: all 0.3s ease-in-out;
+
+    
+}
+
+/* COINBASE */
+.coinbase {
+    max-width: 1200px;
+    margin: auto auto 60% auto;
+    padding: 0 0 0 0;
+    background: #fff;
+    border-radius: 10px;
+    border: #ccc 1px solid;
+    text-align: center;
+    background-image: url(/img/coinbase.png);
+    
+}
+/* END-OF-COINBASE */
+
+/* TOOLTIP STARTING */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    height: auto;
+    background-color: #49CC68;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 2em;
+
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    left: 25%;
+    top: 60%;
+
+  }
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    border: #fff 1px solid;
+    border-radius: 6px;
+}
+
+/* PORT-(FOR_PORTFOLIO) */
+#port {
+    display: row;
+    text-align: center;
+    padding: 0;
+    margin: 20px;
+    background-image: url("https:source.unsplash.com/random/?Cryptocurrency/25x25");
+    color: #fff;
+    background-color:#221f1f8f;
+}
+iframe {
+    height: 550px;
+    width: 100%;
+}
+
