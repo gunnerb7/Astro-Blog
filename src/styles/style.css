@@ -48,6 +48,7 @@ nav {
     border-bottom: #bb0000 3px solid;
     justify-content: space-between;
     display: flex;
+    width: 100%;
 
 }
 
@@ -56,7 +57,7 @@ ul {
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
     text-align: center;
     
@@ -169,90 +170,7 @@ a {
     top: 0%;
     left: 0%;
     position: relative;
-
-
 }
-
-/*.link a img:hover {
-    color: #333;
-    text-decoration: underline;
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-}
-*/
-
-.uphold {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0;
-    background: #fff;
-    border-radius: 10px;
-    border: #ccc 1px solid;
-
-}
-
-
-.uphold:hover {
-    color: #333;
-    text-decoration: underline;
-    cursor: pointer;
-    transform: scale(1.4);
-    transition: all 0.3s ease-in-out;
-
-    
-}
-
-/* COINBASE */
-.coinbase {
-    max-width: 1200px;
-    margin: auto auto 60% auto;
-    padding: 0 0 0 0;
-    background: #fff;
-    border-radius: 10px;
-    border: #ccc 1px solid;
-    text-align: center;
-    background-image: url(/img/coinbase.png);
-    
-}
-/* END-OF-COINBASE */
-
-/* TOOLTIP STARTING */
-.tooltip {
-    position: relative;
-    display: inline-block;
-    
-  }
-  
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 400px;
-    height: auto;
-    background-color: #49CC68;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 50px 2em;
-
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    left: 25%;
-    top: 60%;
-
-  }
-  
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    border: #fff 1px solid;
-    border-radius: 6px;
-}
-
 /* PORT-(FOR_PORTFOLIO) */
 #port {
     display: row;
