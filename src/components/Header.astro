@@ -11,8 +11,12 @@ import { SITE_TITLE } from '../consts';
 		<HeaderLink href="/">🏡️</HeaderLink>
 		<HeaderLink href="/blog">Blog</HeaderLink>
 		<HeaderLink href="/about">About Me</HeaderLink>
-		<HeaderLink href="https://github.com/gunnerb7" target="_blank">GitHub</HeaderLink>
-		<HeaderLink href="https://twitter.com/BrunetteGunner" target="_blank">🐦️</HeaderLink>
+		<ul class="dropdown"><HeaderLink href="/contact">Contact</HeaderLink>
+			<div class="dropdown-content">
+				<li><HeaderLink href="https://github.com/gunnerb7" target="_blank">GitHub</HeaderLink></li>
+				<li><HeaderLink href="https://twitter.com/gunnerb7" target="_blank">Twitter</HeaderLink></li>
+			</div>
+		</ul>
 	</nav>
 </header>
 <style>
