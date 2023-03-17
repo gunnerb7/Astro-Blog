@@ -4,6 +4,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import '../styles/style.css';
+import Slot from '../components/myForm.astro';
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +17,11 @@ import '../styles/style.css';
     <body>
         <Header />
         <main>
-            <slot />
+            <section>
+                <main>
+                    <Slot />
+                    </main>
+            </section>
             <main>
                 <h2>So much possibility with the <span class="red">internet!</span></h2>
                 <p>Have you ever needed a website to try to get the word out about something?! But thought you couldnt afford it?</p>
