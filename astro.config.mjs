@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://gunnerbrunette.cyou',
+	site: 'https://www.gunnerbrunette.cyou',
 	integrations: [mdx(), sitemap()],
 	output: 'static',
 });
